@@ -2,15 +2,18 @@
 В этом репозитории размещены проекты, сделанные в процессе обучения на курсах Яндекс.Практикум "Специалист по Data Science".
 Далее приведена общая информация о проекте и используемые инструменты в процессе выполнения проекта.
 
-[id1]: https://github.com/Ale-Gl/DS_Projects/tree/main/01_Industry_final_steel_temp
-[id2]: https://github.com/Ale-Gl/DS_Projects/tree/main/02_Taxi_Order_Prediction
-[id3]: https://github.com/Ale-Gl/DS_Projects/tree/main/03_Text_Sentiment_Analisys
-[id4]: https://github.com/Ale-Gl/DS_Projects/tree/main/04_Image_Age_Recognition
-[id5]: https://github.com/Ale-Gl/DS_Projects/tree/main/05_Gold_recovery
-[id6]: https://github.com/Ale-Gl/DS_Projects/tree/main/06_Oil_Location
-[id7]: https://github.com/Ale-Gl/DS_Projects/tree/main/07_Bank_Churn
-
-
+[id1]: https://github.com/Ale-Gl/DS_Projects/tree/master/01_Industry_final_steel_temp
+[id2]: https://github.com/Ale-Gl/DS_Projects/tree/master/02_Taxi_Order_Prediction
+[id3]: https://github.com/Ale-Gl/DS_Projects/tree/master/03_Text_Sentiment_Analisys
+[id4]: https://github.com/Ale-Gl/DS_Projects/tree/master/04_Image_Age_Recognition
+[id5]: https://github.com/Ale-Gl/DS_Projects/tree/master/05_Gold_recovery
+[id6]: https://github.com/Ale-Gl/DS_Projects/tree/master/06_Oil_Location
+[id7]: https://github.com/Ale-Gl/DS_Projects/tree/master/07_Bank_Churn
+[id8]: https://github.com/Ale-Gl/DS_Projects/tree/master/08_Vehicle_cost_prediction
+[id9]: https://github.com/Ale-Gl/DS_Projects/tree/master/09_Telecom_tariff_recomendation
+[id10]: https://github.com/Ale-Gl/DS_Projects/tree/master/10_Telecom_tariffs
+[id11]: https://github.com/Ale-Gl/DS_Projects/tree/master/11_Real_Estate_Analisys
+[id12]: https://github.com/Ale-Gl/DS_Projects/tree/master/12_VideoGames_Sales
 
 | № | Проект | Описание | Инструменты |
 | :- | :--------------------- | :---------------------------| :---------------------------|
@@ -21,3 +24,9 @@
 | [5][id5]  | [Предсказание коэффициента восстановления золота из золотосодержащей руды][id5] | Имеются данные с различными признаками, зафиксированными в процессе нескольких этапов очистки золотосодержащей руды. Необходимо подготовить модель, которая будет предсказывать коэффициент восстановления золота. Качество модели оценивается метрикой smape, которую необходимо минимизировать. | Scikit-learn, Pandas, NumPy, SciPy, Matplotlib, Seaborn. Машинное обучение, предобработка данных, визуализация, проверка гипотез.|
 | [6][id6]  | [Выбор месторождения для бурения новой скважины][id6] | Имеются данные с пробами нефти в трёх регионах, где измерили качество нефти и объём её запасов. Необходимо построить модель, которая поможет определить наиболее прибыльный регион с наименьшими рисками. | Scikit-learn, Pandas, Matplotlib, Seaborn, NumPy, Plotly, SciPy. Машинное обучение, Bootstrap, предобработка данных, визуализация. |
 | [7][id7]  | [Прогнозирование оттока клиентов банка][id7] | Имеются исторические данные о поведении клиентов и расторжении договоров с банком. Необходимо спрогонозировать, уйдет ли клиент в ближайшее время или нет. | Scikit-learn, Pandas, Matplotlib, Seaborn, NumPy. Машинное обучение, Upsampling, Downsampling, One-Hot Encoding, Ordinal Encoding, Масштабирование данных, предобработка данных, визуализация. |
+| [8][id8]  | [Определение рыночной стоимости автомобиля][id8] | Имеются исторические данные с техническими характеристиками, комплектациями и ценами автомобилей. Необходимо построить и сравнить несколько моделей для определения стоимости автомобиля. | Scikit-learn, LightGBM, XGBoost, Catboost, Pandas, NumPy, Matplotlib, Seaborn. Градиентный бустинг, машинное обучение, One-Hot Encoding, Ordinal Encoding, масштабирование данных. |
+| [9][id9]  | [Рекомендация активного тарифа для пользователей архивных тарифов][id9] | Имеются данные о поведении клиентов, которые уже перешли с архивных тарифов на действующие. Используя эти данные, необходимо построить модель, которая предложит наиболее подходящий тариф для пользователей архивных тарифов. | Scikit-learn, Pandas, Matplotlib, Seaborn, NumPy. Машинное обучение, проверка адекватности модели, визуализация. |
+| [10][id10]  | [Определение перспективного тарифа для телеком компании][id10] | Имеются данные с пользователями 2х тарифов. Необходимо проанализировать активность клиентов в разрезе тарифов, и определить более перспективный тариф для маркетинговой кампании. | Pandas, SciPy, Matplotlib, Seaborn, NumPy, Datetime. Исследовательский анализ данных, проверка гипотез, предобработка данных, визуализация. |
+| [11][id11]  | [Исследование объявлений о продаже квартир][id11] | Имеются данные ввиде архива данных объявлений о продаже квартир в Санкт-Петербурге и соседних населённых пунктах за несколько лет. Необходимо определить параметры, оказывающие наибольшее влияние на оценку стоимости недвижимости. | Pandas, Matplotlib, Seaborn, NumPy, Datetime. Исследовательский анализ данных, предобработка данных, визуализация. |
+| [12][id12]  | [Исследование продаж компьютерных игр][id12] | Из открытых источников доступны исторические данные о продажах игр, оценки пользователей и экспертов, жанры и платформы. Необходимо выявить определяющие успешность игры закономерности и для каждого из трех регионов (NA, Europe, JP) выбрать игры для рекламных кампаний. | Pandas, SciPy, Matplotlib, Seaborn, NumPy, Datetime. Исследовательский анализ данных, проверка гипотез, предобработка данных, визуализация. |
+
